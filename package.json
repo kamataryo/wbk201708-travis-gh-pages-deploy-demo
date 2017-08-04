@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "test": "ls ./dest/style.css"
+    "test": "ls ./dist/style.css"
   },
   "keywords": [],
   "author": "",
