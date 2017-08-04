@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0"
+  },
+  "name": "wbk201708-travis-gh-pages-deploy-demo",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "ls ./dest/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
