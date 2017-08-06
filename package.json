@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "gulp",
-    "test": "ls ./dist/style.css"
+    "pretest": "[ -d ./dist ] && rm -rf ./dist",
+    "test": "npm run build && ls ./dist/style.css && echo 'test success!'"
   },
   "keywords": [],
   "author": "",
