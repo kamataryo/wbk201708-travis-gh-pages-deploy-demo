@@ -22,4 +22,4 @@ after_success:
   - "git checkout -b gh-pages"
   - "git add ."
   - "git commit -m\"Deploy from travis[ci skip]\""
-  - "git push origin gh-pages"
+  - "git push -f origin gh-pages"

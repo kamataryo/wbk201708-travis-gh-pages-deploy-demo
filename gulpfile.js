@@ -7,7 +7,6 @@ gulp.task('style', () => gulp
   .pipe(gulp.dest('./dist'))
 )
 
-
 gulp.task('html', () => gulp
   .src('./src/index.html')
   .pipe(gulp.dest('./dist'))
